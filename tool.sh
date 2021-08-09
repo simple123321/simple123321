@@ -94,7 +94,7 @@ case $xuan in
 		start
 		os_pan
 		huan
-        	docker run --restart=on-failure --name v$sid -d -v /etc/soga/:/etc/soga/ --network host sprov065/soga \
+        	docker run --restart=on-failure --name vv$sid -d -v /etc/soga/:/etc/soga/ --network host sprov065/soga \
 		--type=sspanel-uim \
 		--server_type=v2ray \
 		--api=webapi \
