@@ -29,7 +29,7 @@ mukey='"panelKey": "weilehaoji",'
 read -p "  1.面板里添加完节点后生成的自增ID:" sid
 rid='"nodeId": '$sid','
 #cloudflare 邮箱
-email="- CF_Email=
+email="- CF_Email="
 #cloudflare密钥
 value="- CF_Key=790a5ab094267d77f740e17aab0f21646f625"
 #授权密钥
